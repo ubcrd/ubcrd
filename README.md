@@ -34,6 +34,7 @@ I work across the product lifecycle: requirements analysis, system and data desi
 - Authentication, permissions and data-driven experiences
 - Business automation connecting SaaS and custom applications
 - AI-enabled features and AI-assisted development workflows
+- Documentation systems designed for developers and AI agents
 
 ## Core stack
 
@@ -85,33 +86,58 @@ My workflow includes Git-based delivery, development/staging/production separati
 
 I use AI development tools to accelerate research and implementation while remaining responsible for architecture, code review, debugging, validation and production readiness.
 
-## Selected work
+## Documentation-first portfolio
 
-### Glucosa Fácil
+Most production and client repositories are private because they contain proprietary business logic, client assets, operational processes or user data. Instead of exposing code that should remain confidential, this profile documents the work through sanitised case studies covering:
 
-A modular health and habit-tracking product that began as a solution for gestational-diabetes management and evolved into a broader platform for personal health routines.
+- Product context and business problem
+- My role and responsibilities
+- User roles and critical workflows
+- System boundaries and architecture
+- Data-model decisions
+- Authentication and permissions
+- Integrations and failure handling
+- Testing, deployment and maintenance
+- Outcomes, limitations and lessons learned
 
-**Focus:** Product architecture · modular tracking · user profiles · data workflows · AI-enabled planning · production iteration
+Start with the [project portfolio](./PROJECTS.md) and the [documentation system](./DOCUMENTATION_SYSTEM.md).
 
-### DIVEP Digital Platforms
+## Selected systems
 
-Operational platforms supporting applicant intake, programme management, CRM workflows, scheduling, automated communications and internal team processes.
+### Consta
 
-**Focus:** CRM architecture · portals · data modelling · automation · integrations · role-based workflows
+A modular health and habit-management product that evolved from the original Glucosa Fácil concept into an independent platform for personalised tracking, routines and health-related tools.
 
-### PrimerizaRD
+**Live product:** [constaapp.joseroad.com](https://constaapp.joseroad.com/)  
+**Focus:** Product architecture · modular tracking · user profiles · data workflows · AI-enabled features · production iteration
 
-A digital ecosystem for pregnancy, motherhood education, community resources and member experiences.
+[Read the sanitised case study](./case-studies/CONSTA.md)
 
-**Public repository:** [ubcrd/primerizard](https://github.com/ubcrd/primerizard)
+### PrimerizaRD Digital Ecosystem
 
-### Agro Road
+A connected ecosystem for first-time mothers that includes the Tribu member platform, the public website, a mobile wrapper/app in development, gala voting, event-registration management and operational tools.
 
-An agritech incident-reporting concept that uses conversational interfaces, field images and AI-assisted classification to help producers, technicians and cooperatives report crop issues.
+**Focus:** Community platforms · member workflows · event systems · role-based administration · content and resource delivery
 
-**Focus:** Product architecture · role-based workflows · data modelling · Telegram and AI integrations
+[Read the ecosystem case study](./case-studies/PRIMERIZARD_ECOSYSTEM.md)
 
-Read the expanded case summaries in [PROJECTS.md](./PROJECTS.md).
+### Product and operational systems
+
+My private product work also includes The Neuro Space psychological-test engine, UNQR, Road Space OS, Pañal Check, DIVEP Academy and other workflow-driven platforms.
+
+[Review the product-systems summary](./case-studies/PRODUCT_SYSTEMS.md)
+
+### CMS and client platforms
+
+I have designed and implemented landing pages and websites with custom administration portals and content-management workflows for projects such as La Mafia Positiva, Dra. Berniza, UBC and the José Road personal-brand platform.
+
+[Review the platform summary](./case-studies/CMS_AND_CLIENT_PLATFORMS.md)
+
+### Road OS Documentation System
+
+An evolving documentation framework for structuring product context, architecture, decisions and implementation instructions so both human collaborators and AI development agents can work with a project more reliably.
+
+[Read the documentation-system case study](./case-studies/ROAD_OS_DOCUMENTATION.md)
 
 ## Professional experience
 
@@ -136,7 +162,7 @@ See [CERTIFICATIONS.md](./CERTIFICATIONS.md).
 - Model data around real system behaviour and future growth.
 - Make changes traceable, testable and reversible.
 - Treat error states and permissions as product requirements.
-- Document decisions so another person can maintain the system.
+- Document decisions so another person or agent can maintain the system.
 - Use automation and AI to increase capability, not replace judgement.
 
 ---
