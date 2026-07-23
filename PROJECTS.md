@@ -1,110 +1,128 @@
-# Selected Projects
+# Product and Platform Portfolio
 
-This document provides additional context for the systems featured on my GitHub profile. It separates production products, client/internal platforms and prototypes so that project status remains clear.
+This portfolio documents systems I have designed, built, implemented or helped evolve. Most production repositories are private because they contain proprietary business logic, operational data, client assets or active user information.
 
-## Glucosa Fácil
+The purpose of this document is to make the scope of the work reviewable without exposing confidential code.
 
-**Status:** Production  
-**Type:** Modular health and habit-tracking product  
-**Role:** Product Developer / Product Architect
+## Evidence model
 
-### Context
+Each project may be represented through one or more of the following:
 
-The product began as a practical tool to support gestational-diabetes management and evolved into a broader modular platform for health routines and personal tracking.
+- **Live product:** a publicly accessible application or website
+- **Private codebase:** repository access is restricted
+- **Sanitised case study:** architecture and decisions documented without secrets or client data
+- **Controlled walkthrough:** product review subject to ownership and confidentiality constraints
+- **Prototype:** functional or partially functional validation build
+- **Documentation:** PRDs, architecture notes, data models, flows and implementation plans
+
+---
+
+# 1. Owned products and product experiments
+
+## Consta
+
+**Former name:** Glucosa Fácil  
+**Status:** Production and active evolution  
+**Type:** Modular health and habit-management product  
+**Role:** Founder, Product Architect and Technical Product Developer  
+**Live product:** https://constaapp.joseroad.com/
+
+Consta evolved from a gestational-diabetes support tool into a broader product for personalised health tracking and habit management.
 
 ### Product areas
 
-- User onboarding based on personal goals and health context
-- Optional modules for glucose, meals, pantry, shopping, weight, exercise, hydration, medication, appointments and symptoms
-- Personal progress and routine tracking
-- AI-assisted menu and planning experiences
-- Community groups, challenges, achievements and points
-- Continuous product evolution based on active-user needs
+- Goal and context-based onboarding
+- Modular health and habit-tracking tools
+- Glucose, meals, pantry, shopping, weight, exercise and hydration workflows
+- Medication, appointment and symptom tracking
+- AI-assisted planning and food-related features
+- Community, achievements and engagement mechanics
+- Continuous iteration around real user needs
 
-### My contribution
+### Engineering areas
 
-- Product definition and modular architecture
-- User journeys, requirements and feature prioritisation
-- Data-flow and implementation planning
-- Frontend and backend product decisions
-- Testing, debugging and iterative improvement
-- Technical and product documentation
-
-### Engineering topics
-
-- Modular feature activation
-- User-profile-driven workflows
-- Data relationships between users, logs, modules and community activity
+- Modular product architecture
+- User-profile-driven experiences
 - Authentication and permissions
-- Error states and validation
-- Production testing and product maintenance
+- Relational data modelling
+- Validation and error handling
+- Staging and production workflows
+- Debugging and product maintenance
+
+[Open the sanitised case study](./case-studies/CONSTA.md)
 
 ---
 
-## DIVEP Digital Platforms
+## UNQR
 
-**Status:** Active operational systems  
-**Type:** CRM, applicant portals, programme-management systems and automation  
-**Role:** Product Operations and Technical Solutions Lead
+**Status:** Product build  
+**Type:** Dynamic QR-code generation and management platform  
+**Role:** Product Designer and Technical Product Developer  
+**Codebase:** Private
 
-### Context
+### Product areas
 
-DIVEP manages applications, interviews, follow-ups, communications, scheduling and programme operations across multiple services and teams.
+- QR-code creation and management
+- Dynamic destination control
+- Administrative workflows
+- Organised ownership of generated assets
+- Product and account-management experiences
 
-### Solution areas
+### Engineering areas
 
-- Applicant intake and account workflows
-- CRM-style lifecycle and status management
-- Automated email and calendar actions
-- Interview and appointment scheduling
-- Internal dashboards and applicant portals
-- Programme-specific user journeys
-- Operational documentation and process standardisation
-
-### Technologies and platforms
-
-- React-based and platform-based web interfaces
-- Airtable
-- Supabase
-- Make
-- Resend
-- Google Workspace and Google Calendar
-- REST APIs and webhooks
-
-### My contribution
-
-- Business-process analysis and translation into system requirements
-- CRM and data-structure design
-- Automation and integration architecture
-- Portal and UX design
-- Implementation, testing and debugging
-- Documentation of workflows, roles and operating rules
+- CRUD workflows
+- User and resource relationships
+- Administrative permissions
+- Data persistence
+- Error and validation states
+- Scalable product organisation
 
 ---
 
-## PrimerizaRD
+## Road Space OS
 
-**Status:** Active ecosystem  
-**Type:** Community, education and digital-resource platform  
-**Role:** Director of Marketing Strategy, Projects and Operations
+**Status:** Product development  
+**Type:** Space-management and administration platform  
+**Role:** Product Architect and Technical Product Developer  
+**Codebase:** Private
 
-PrimerizaRD supports first-time mothers with educational content, resources, community experiences and digital tools related to pregnancy, childbirth and the first year of motherhood.
+### Product areas
 
-### Relevant product and technical areas
+- Space and resource administration
+- Operational records and status workflows
+- User and administrative interfaces
+- Centralised management of physical-space information
 
-- Content-driven platform architecture
-- Member and user experiences
-- Digital-resource delivery
-- Product and campaign workflows
-- Responsive interfaces
-- Community and education tools
-- Payment and service integrations
+### Engineering areas
 
-### Public code
+- Role-based workflows
+- Data modelling around spaces, users and operations
+- Administrative dashboards
+- System extensibility
+- Documentation and implementation planning
 
-Repository: [ubcrd/primerizard](https://github.com/ubcrd/primerizard)
+---
 
-The public repository represents technologies including Next.js, React, Firebase, Firestore, Sanity, Tailwind CSS, Stripe and PayPal integrations.
+## Pañal Check
+
+**Status:** Product prototype / utility  
+**Type:** Diaper-expiration checking tool  
+**Role:** Product Designer and Developer  
+**Codebase:** Private
+
+### Product areas
+
+- Expiration-date checking
+- Simple guided user workflow
+- Clear result and warning states
+- Mobile-first usability
+
+### Engineering areas
+
+- Input validation
+- Rule-based calculation
+- Error-state design
+- Small-product architecture
 
 ---
 
@@ -112,42 +130,223 @@ The public repository represents technologies including Next.js, React, Firebase
 
 **Status:** Prototype and validation  
 **Type:** Agritech incident-reporting platform  
-**Role:** Founder and Product Architect
-
-### Context
-
-Agricultural organisations often lack a consistent real-time process for producers and technicians to report pests, crop diseases and field incidents.
+**Role:** Founder and Product Architect  
+**Codebase:** Private
 
 ### Product concept
 
-- Submit incidents through a Telegram bot or web form
+- Report field incidents through Telegram or a web form
 - Attach a field image and natural-language description
 - Use AI and specialised identification services to assist classification
 - Route incidents into role-based dashboards
-- Track status, location, priority and follow-up
-- Support producers, field technicians, cooperatives and management
+- Track location, priority, status and follow-up
+- Support producers, technicians, cooperatives and management
 
-### My contribution
+### Engineering areas
 
-- Product definition and validation strategy
-- User roles and operational flows
-- Data-model and system-architecture planning
-- Conversational reporting workflow
-- Integration and fallback design
-- Prototype planning and documentation
+- Conversational interfaces
+- AI and third-party integrations
+- Incident data modelling
+- Role-based workflows
+- Fallback and failure-path design
 
 ---
 
-## Additional product work
+# 2. Community and organisational ecosystems
 
-My broader portfolio includes:
+## PrimerizaRD Digital Ecosystem
 
-- CRM and lead-management systems
-- Academy and programme portals
-- Real-estate digital products
-- AI-assisted content and workflow tools
-- Internal operations platforms
-- Mobile-product prototypes
-- Reusable design systems and interface kits
+**Status:** Active ecosystem with ongoing product development  
+**Type:** Community, education, events and digital-resource systems  
+**Role:** Director of Marketing Strategy, Projects and Operations / Product Lead  
+**Codebases:** Private
 
-Because several projects contain client data or active business logic, detailed walkthroughs are available privately during professional review or interviews.
+PrimerizaRD is not a single website. It is a connected product ecosystem that supports first-time mothers across content, community, events, resources and member experiences.
+
+### Systems in the ecosystem
+
+- **Tribu PrimerizaRD:** member and community platform
+- **PrimerizaRD website:** public content and conversion experience
+- **Mobile wrapper/app:** mobile experience currently in development
+- **Gala voting:** online voting system integrated into the web ecosystem
+- **Event registration management:** registration, attendance and operational workflows for Tribu events
+- **Digital resources:** delivery and organisation of educational materials
+- **Administrative tools:** internal management and content workflows
+
+### Engineering and product areas
+
+- Member and role-based experiences
+- Event and registration data
+- Voting logic and controlled participation
+- Content and resource delivery
+- Administrative interfaces
+- Responsive and mobile-oriented experiences
+- Integration between public, member and operational systems
+
+[Open the ecosystem case study](./case-studies/PRIMERIZARD_ECOSYSTEM.md)
+
+---
+
+## DIVEP Academy and Digital Operations
+
+**Status:** Active development and operational use  
+**Type:** Academy, programme, applicant and internal-management systems  
+**Role:** Digital Marketing and Product Operations Coordinator / Technical Solutions Lead  
+**Codebases:** Private
+
+### Systems and workflows
+
+- Academy and learning experiences
+- Applicant intake
+- CRM lifecycle and status management
+- Interview and appointment scheduling
+- Automated email and calendar actions
+- Applicant and internal portals
+- Programme-specific workflows
+- Operational dashboards and documentation
+
+### Engineering areas
+
+- CRM data structures
+- Automation and integration architecture
+- Role-based operational processes
+- REST APIs and webhooks
+- Error handling and escalation
+- Cross-system data movement
+
+---
+
+# 3. Client products and specialised platforms
+
+## The Neuro Space
+
+**Status:** Client product  
+**Type:** Psychological-test platform and test-generation engine  
+**Role:** Product Designer and Technical Product Developer  
+**Codebase:** Private
+
+### Product areas
+
+- Engine for creating and structuring psychological tests
+- Test-taking user experiences
+- Results and interpretation workflows
+- Administrative management of test content
+- Reusable logic for multiple assessment types
+
+### Engineering areas
+
+- Schema-driven or configurable assessment structures
+- Conditional flows
+- Scoring and result logic
+- Administrative authoring experiences
+- Data separation between tests, responses and results
+
+---
+
+## La Mafia Positiva
+
+**Status:** Client platform  
+**Type:** Website, landing pages, custom CMS and administrative workflows  
+**Role:** Product Designer and Developer  
+**Codebase:** Private
+
+### Product areas
+
+- Public brand and conversion experience
+- Custom content-management workflows
+- Administrative portal
+- Reusable design and publishing structures
+
+---
+
+## Dra. Berniza
+
+**Status:** Client platform  
+**Type:** Professional website, landing experience and custom administration  
+**Role:** Product Designer and Developer  
+**Codebase:** Private
+
+### Product areas
+
+- Service and professional positioning
+- Lead and conversion flows
+- Custom content management
+- Administrative editing experience
+
+---
+
+## UBC Website
+
+**Status:** Client platform  
+**Type:** Website and managed content experience  
+**Role:** Product Designer and Developer  
+**Codebase:** Private
+
+### Product areas
+
+- Structured institutional content
+- Responsive interface
+- Managed publishing workflows
+- Administrative control
+
+---
+
+## José Road Platform
+
+**Status:** Active personal-brand platform  
+**Type:** Portfolio, professional positioning and product/service presentation  
+**Role:** Owner, Product Designer and Developer  
+**Live website:** https://joseroad.com/jose-road
+
+### Product areas
+
+- Professional profile and positioning
+- Portfolio and project presentation
+- Service and contact flows
+- Content and brand-system implementation
+
+---
+
+# 4. Documentation and AI-development systems
+
+## Road OS Documentation System
+
+**Status:** Active research and implementation  
+**Type:** Project-documentation framework for human teams and AI agents  
+**Role:** System Designer and Author  
+**Codebase and documentation:** Private, with sanitised methodology documented in this profile
+
+### Purpose
+
+Road OS is an attempt to make project context durable and usable across time, tools and collaborators. It defines how product, design and engineering knowledge should be structured so that a human developer or AI development agent can understand a project before changing it.
+
+### Documentation areas
+
+- Product requirements and scope
+- Current-state repository audits
+- Technical architecture
+- Data models and flows
+- Product gaps and implementation roadmaps
+- Decisions, risks and constraints
+- Environment and deployment information
+- Agent instructions and safe operating rules
+- Demo-readiness and quality-assurance reports
+
+[Open the documentation-system case study](./case-studies/ROAD_OS_DOCUMENTATION.md)
+
+---
+
+# 5. Portfolio review policy
+
+Because these systems include client work and active products, this public repository does not publish their source code.
+
+A professional review should focus on:
+
+1. The problem and system context
+2. My exact role and ownership
+3. Architecture and data decisions
+4. Critical workflows and edge cases
+5. Testing, debugging and deployment practices
+6. Results and lessons learned
+
+Detailed technical walkthroughs should only include information that I own or have permission to discuss. Secrets, personal data, production credentials and proprietary client logic must remain private.
