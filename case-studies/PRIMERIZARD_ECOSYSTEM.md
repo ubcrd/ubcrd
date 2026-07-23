@@ -65,6 +65,10 @@ Relevant workflows include:
 
 PrimerizaRD creates educational resources such as plans, checklists and guides. The platform must support clear discovery, controlled delivery and consistent brand presentation.
 
+### NueveLunas (in development)
+
+A pregnancy-tracking companion app in concept and early development, planned to launch its first phase inside the PrimerizaRD ecosystem so it can reach an existing community instead of starting from zero. See the [product summary](./PRODUCT_SYSTEMS.md#nuevelunas) for scope details.
+
 ## Users and roles
 
 | Role | Main needs |

@@ -53,6 +53,83 @@ Consta evolved from a gestational-diabetes support tool into a broader product f
 
 ---
 
+## Propertree
+
+**Status:** Pre-beta (soft launch with first invited agents)
+**Type:** Mobile-first real-estate portfolio and lead-generation platform
+**Role:** Founder, Product Architect and Technical Product Developer
+**Domain:** [propertreedr.com](https://propertreedr.com)
+**Codebase:** Private
+
+### Product areas
+
+- One public portfolio link per real-estate agent
+- Individual property pages with USD/DOP pricing and WhatsApp lead capture
+- Agent dashboard to create, order, publish and measure listings
+- Dominican-market-specific product decisions (zones, currency, WhatsApp-first conversion)
+
+### Engineering areas
+
+- TanStack Start (React 19) SSR on Cloudflare Workers
+- Supabase (via Lovable Cloud) for auth, data and storage
+- Role-based access between public, agent and admin experiences
+- First-party analytics combined with GA4 and Microsoft Clarity
+
+[Open the sanitised case study](./case-studies/PROPERTREE.md)
+
+---
+
+## Easy Road
+
+**Status:** Active development (portal-first, public marketing paused by design)
+**Type:** Membership portal — resources, discounts, community and progress tracking
+**Role:** Founder, Product Architect and Technical Product Developer
+**Codebase:** Private
+
+### Product areas
+
+- Tiered membership (Starter/Pro/Studio + limited Lifetime Founders)
+- Resource library and partner-discount catalogue gated by plan
+- Community and achievement/levels mechanics
+- Sequenced onboarding-email activation flow
+
+### Engineering areas
+
+- Next.js (App Router) + Supabase (Postgres, Auth, RLS)
+- Plan-gated, signed-URL downloads
+- Planned Lemon Squeezy checkout/licensing integration
+- Deliberate phased build: portal and admin validated before public acquisition funnel
+
+[Open the sanitised case study](./case-studies/EASY_ROAD.md)
+
+---
+
+## Road Automation Workflows
+
+**Former name:** ws-project (originally `whatsapp-agent-engine`)
+**Status:** Active, in production use
+**Type:** Self-hosted n8n automation hub serving Road and UBC projects
+**Role:** Automation Architect and Technical Product Developer
+**Infrastructure:** Self-managed VPS (Contabo)
+**Codebase:** Private
+
+### Product/technical areas
+
+- Centralised, multi-project automation hub instead of per-client one-off integrations
+- Documented pivot from a custom TypeScript WhatsApp-agent engine to n8n after real production pressure (DIVEP)
+- Mandatory workflow-spec-before-build discipline with a QA checklist per workflow
+- "Evaluate before you build" rule for new automation channels/patterns
+
+### Engineering areas
+
+- Self-hosted n8n on a dedicated VPS, Docker-based deployment
+- Environment-variable-scoped credentials, prefixed per project
+- Original TypeScript engine preserved as a documented reference design, not deleted
+
+[Open the sanitised case study](./case-studies/ROAD_AUTOMATION_WORKFLOWS.md)
+
+---
+
 ## UNQR
 
 **Status:** Product build  
@@ -149,6 +226,72 @@ Consta evolved from a gestational-diabetes support tool into a broader product f
 - Incident data modelling
 - Role-based workflows
 - Fallback and failure-path design
+
+---
+
+## Road RSV
+
+**Status:** In active development  
+**Type:** SaaS for managing residential rental properties (units, buildings, condominiums)  
+**Role:** Product Architect and Technical Product Developer  
+**Codebase:** Private  
+**Part of:** [ROAD Ecosystem](./case-studies/ROAD_ECOSYSTEM.md)
+
+Property-management SaaS covering residential rental units, buildings and condominiums — distinct from Propertree, which is an agent-facing listing/portfolio and lead-sharing tool, not a rental-operations product.
+
+[Read more in the ecosystem case study](./case-studies/ROAD_ECOSYSTEM.md#road-lab--internal-tools)
+
+---
+
+## Site Capture
+
+**Status:** Active, in production use
+**Type:** Internal tool for capturing live no-code sites (Framer and similar) as static HTML
+**Role:** Tool Designer and Developer
+**Codebase:** Private
+
+Used internally for migration and archiving — for example, capturing a live no-code site before a rebuild or a move to static hosting (e.g. Vercel).
+
+[Read more in the product-systems summary](./case-studies/PRODUCT_SYSTEMS.md#site-capture)
+
+---
+
+## Prospecta CRM and Mini CRM
+
+**Status:** In active development
+**Type:** Two independent SaaS CRM products in progress
+**Role:** Product Architect and Technical Product Developer
+**Codebase:** Private
+
+Prospecta and Mini CRM are separate, owned CRM product efforts exploring different product shapes (fuller pipeline tooling vs. a lighter-weight solution), not client engagements.
+
+[Read more in the product-systems summary](./case-studies/PRODUCT_SYSTEMS.md#prospecta-crm)
+
+---
+
+## NueveLunas
+
+**Status:** Concept and early development
+**Type:** Pregnancy-tracking companion app
+**Role:** Product Designer and Technical Product Developer
+**Codebase:** Private
+
+Planned to launch its first phase inside the PrimerizaRD ecosystem, giving it an existing community rather than a cold start.
+
+[Read more in the PrimerizaRD ecosystem case study](./case-studies/PRIMERIZARD_ECOSYSTEM.md#nuevelunas-in-development)
+
+---
+
+## ROAD Ecosystem
+
+**Status:** Active, ongoing
+**Type:** Owned product-and-tooling ecosystem (No-Code Studio, internal SaaS tooling, AI-assisted development lab)
+**Role:** Founder / Ecosystem Lead / Technical Product Developer
+**Codebase:** Private
+
+ROAD is the shared foundation behind Propertree, Easy Road, Road Automation Workflows, Site Capture, Agro Road and the Road OS documentation system, plus a set of internal Road Lab tools (design system, workflow, AI, analytics, finances and more) that support them.
+
+[Open the ecosystem case study](./case-studies/ROAD_ECOSYSTEM.md)
 
 ---
 
@@ -307,12 +450,34 @@ PrimerizaRD is not a single website. It is a connected product ecosystem that su
 
 ---
 
+## Unknown Brand Consulting — internal tooling
+
+**Status:** Active, internal use  
+**Type:** Social-hub, client-portal and content-generation tooling supporting UBC client delivery  
+**Role:** Co-founder, Product Designer and Developer  
+**Codebase:** Private
+
+[Read more in the CMS and client platforms summary](./case-studies/CMS_AND_CLIENT_PLATFORMS.md#unknown-brand-consulting--internal-tooling)
+
+---
+
 # 4. Documentation and AI-development systems
+
+## ROAD Ecosystem
+
+**Status:** Active, ongoing  
+**Type:** Owned product-and-tooling ecosystem  
+**Role:** Founder / Ecosystem Lead  
+**Codebase:** Private
+
+The umbrella case study for everything built under the ROAD brand: Road OS (below), Road Lab internal tools, and the products in section 1 that run on top of them.
+
+[Open the ecosystem case study](./case-studies/ROAD_ECOSYSTEM.md)
 
 ## Road OS Documentation System
 
-**Status:** Active research and implementation  
-**Type:** Project-documentation framework for human teams and AI agents  
+**Status:** Active, in daily use  
+**Type:** Project-documentation framework for human teams and AI agents, and the real internal SSOT for the ROAD ecosystem  
 **Role:** System Designer and Author  
 **Codebase and documentation:** Private, with sanitised methodology documented in this profile
 

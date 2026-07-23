@@ -22,6 +22,10 @@ My formal academic background is in advertising and creative communication. My t
 - **Business Strategy Sprint** — Section Academy
 - **AI Formation Programme** — Section Academy
 
+## Verified badges
+
+Additional AI- and strategy-related digital badges (Section Academy and others) are verifiable on my [Credly profile](https://www.credly.com/users/jose-roa.f78b05a1/badges).
+
 ## Additional digital training
 
 - **Digitalisation of Business with Google My Business** — Google Actívate

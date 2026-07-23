@@ -158,7 +158,7 @@ Depending on the system, I create and maintain:
 
 ## AI-assisted development
 
-I use AI tools to accelerate research, scaffolding, implementation and debugging. I remain responsible for:
+I use AI tools — Lovable, Bolt, v0, Cursor and Claude Code among them — to accelerate research, scaffolding, implementation and debugging. Different tools fit different jobs: Lovable and Bolt for fast full-stack scaffolding on Supabase-backed products, Claude Code and Cursor for deeper implementation, refactors and documentation work inside an existing codebase. I remain responsible for:
 
 - Selecting the architecture
 - Reviewing generated code

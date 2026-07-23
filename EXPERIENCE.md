@@ -4,13 +4,17 @@ This summary focuses on the experience most relevant to technical product develo
 
 ## ROAD
 
-**No-Code Specialist / Technical Product Developer**  
+**Founder / Ecosystem Lead / Technical Product Developer**  
 **April 2025–Present**
 
-- Design and build digital products, internal platforms, CRM systems and operational tools.
+ROAD is my own product-and-tooling ecosystem, not a single employer — see the [ROAD Ecosystem case study](./case-studies/ROAD_ECOSYSTEM.md) for the full picture.
+
+- Founded and lead the ROAD ecosystem: a No-Code Studio practice, a set of internal Road Lab tools, and the products built on top of them (Propertree, Easy Road, Road Automation Workflows, Site Capture).
+- Design and build digital products, internal platforms, CRM-style systems and operational tools for both owned products and Studio/client engagements.
 - Translate business requirements into product scope, user flows, data models and implementation plans.
 - Work across frontend, backend, integrations, authentication, permissions and deployment workflows.
-- Create automation systems connecting custom applications with SaaS platforms.
+- Architected and maintain Road OS, the documentation Single Source of Truth for the whole ecosystem.
+- Designed and operate a self-hosted n8n automation hub on a dedicated VPS, connecting custom applications with SaaS platforms across Road and client projects.
 - Use Git-based development, debugging, testing, staging and production-release practices.
 - Structure project documentation for implementation, maintenance and handoff.
 

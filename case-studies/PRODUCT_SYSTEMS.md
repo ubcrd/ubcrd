@@ -219,6 +219,105 @@ DIVEP Academy supports educational programmes and participant experiences connec
 
 ---
 
+# Site Capture
+
+## Snapshot
+
+**Type:** Internal tool for capturing and archiving live no-code sites (Framer and similar builders) as static HTML
+**Status:** Active, in production use
+**My role:** Tool Designer and Developer
+**Code visibility:** Private
+**Part of:** [ROAD Ecosystem](./ROAD_ECOSYSTEM.md)
+
+## Product purpose
+
+No-code site builders (Framer in particular) do not always make it simple to take a full, faithful static snapshot of a published site for migration, backup or platform-change purposes. Site Capture solves that internally: it captures a live site and produces a static HTML output that preserves structure, assets and metadata, ready to be redeployed (for example, via Vercel) or archived.
+
+## Technical areas demonstrated
+
+- Static-site capture and asset handling
+- Preservation of SEO/meta tags, Open Graph and font-loading behaviour during capture
+- Migration workflows between no-code platforms and static hosting
+- Reusable internal tooling rather than a one-off script per migration
+
+## Documentation still required
+
+- Supported source platforms beyond Framer
+- Known limitations (dynamic content, forms, CMS-driven sections)
+- Redeployment checklist per target host
+
+---
+
+# Prospecta CRM
+
+## Snapshot
+
+**Type:** SaaS CRM product
+**Status:** In active development
+**My role:** Product Architect and Technical Product Developer
+**Code visibility:** Private
+
+## Product purpose
+
+Prospecta is an owned SaaS product in development, aimed at CRM-style pipeline and prospect management. It is an independent product effort rather than a client engagement.
+
+## Documentation still required
+
+- Target market and positioning
+- Core pipeline/data model
+- Current development stage and launch criteria
+
+---
+
+# Mini CRM
+
+## Snapshot
+
+**Type:** SaaS CRM solution
+**Status:** In active development
+**My role:** Product Architect and Technical Product Developer
+**Code visibility:** Private
+
+## Product purpose
+
+A second, more lightweight CRM solution in development alongside Prospecta, exploring a simpler product shape for smaller teams or a different segment.
+
+## Documentation still required
+
+- Differentiation from Prospecta CRM
+- Target segment and scope boundaries
+- Current development stage
+
+---
+
+# NueveLunas
+
+## Snapshot
+
+**Type:** Pregnancy-tracking companion app
+**Status:** Concept and early development
+**My role:** Product Designer and Technical Product Developer
+**Code visibility:** Private
+**Related ecosystem:** [PrimerizaRD Digital Ecosystem](./PRIMERIZARD_ECOSYSTEM.md)
+
+## Product purpose
+
+NueveLunas is a product concept for guiding and tracking a pregnancy journey week by week. It is being developed in connection with PrimerizaRD, where its first release phase is planned to launch, giving it an existing community and distribution channel rather than requiring cold-start user acquisition.
+
+## Product areas (planned)
+
+- Week-by-week pregnancy tracking and guidance
+- Educational content tied to gestational stage
+- Connection to PrimerizaRD's existing community and resources for first-phase launch
+
+## Documentation still required
+
+- Confirmed data model for tracking entries and gestational stages
+- Launch-phase scope versus later, standalone-app phases
+- Relationship and data boundary between NueveLunas and the wider PrimerizaRD platform
+
+---
+
 # Portfolio interpretation
 
 Together, these systems demonstrate experience across:

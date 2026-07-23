@@ -2,18 +2,38 @@
 
 ## Snapshot
 
-**Status:** Active research and implementation  
-**System type:** Documentation framework for product teams and AI development agents  
+**Status:** Active, in daily use as the operating documentation system for the [ROAD Ecosystem](./ROAD_ECOSYSTEM.md)  
+**System type:** Single Source of Truth (SSOT) documentation system for a product ecosystem, and a documentation methodology for AI development agents  
 **My role:** System Designer and Author  
 **Visibility:** Methodology documented publicly; project-specific implementations remain private
 
 ## Executive summary
 
-Road OS is an evolving method for documenting digital products so that their context does not disappear between conversations, tools, developers or AI agents.
+Road OS is two things at once: it is the real, in-use internal documentation system that organises brand, product strategy, Studio operations, marketing, an internal tools directory and governance for the whole [ROAD Ecosystem](./ROAD_ECOSYSTEM.md) — and it is also a reusable methodology for how digital products should be documented so that context does not disappear between conversations, tools, developers or AI agents.
 
-The system treats documentation as part of the product architecture. Instead of relying on one large README or scattered notes, it separates product intent, repository reality, data structures, decisions, risks, implementation tasks and operating rules into documents with clear responsibilities.
+The system treats documentation as part of the product architecture rather than an afterthought. Instead of relying on one large README or scattered notes, it separates product intent, repository reality, data structures, decisions, risks, implementation tasks and operating rules into documents with clear responsibilities, organised under a strict rule: if any document contradicts the Core section, Core wins.
 
-Its purpose is to help a human collaborator or an AI development agent understand what exists, why it exists, what is safe to change and how a proposed change should be validated.
+Its purpose is to help a human collaborator or an AI development agent understand what exists, why it exists, what is safe to change and how a proposed change should be validated — for Road's own products first, and for any other project that adopts the same structure.
+
+## How it is actually organised today
+
+In practice, the live system is structured as:
+
+```text
+docs/
+├── 00_core/             # SSOT — philosophy, voice, legal, design system
+├── 01_brand/            # Brand and packaging
+├── 02_products/         # Product strategy
+├── 03_studio/           # Studio services and operations
+├── 04_marketing/        # Marketing and content
+├── 05_tools_directory/  # Internal tools directory
+├── 06_lab/              # Experiments and launches
+└── 07_templates/        # Reusable templates
+packs/                   # Context packs for agents (Core, Studio, Tools, Marketing, Website Copy)
+skills/                  # Agent skills
+```
+
+Context packs exist specifically so an agent (Lovable, Cursor, Claude) loads only the section it needs — Core plus one relevant pack — instead of an undifferentiated dump of every document in the system.
 
 ## Problem
 

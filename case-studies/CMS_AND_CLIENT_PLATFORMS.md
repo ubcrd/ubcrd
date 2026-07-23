@@ -120,6 +120,27 @@ The codebases remain private. The purpose of this summary is to show the product
 
 ---
 
+# Unknown Brand Consulting — internal tooling
+
+## Snapshot
+
+**Type:** Internal social-hub, client-portal and content-generation tooling
+**Status:** Active, internal use
+**My role:** Co-founder, Product Designer and Developer
+**Code visibility:** Private
+
+## Scope
+
+Alongside client-facing platforms, Unknown Brand Consulting (UBC) runs a small set of internal tools that support delivery across client engagements rather than being sold as standalone products:
+
+- A social-hub tool for managing social content across client accounts
+- A unified client-portal hub consolidating access for multiple client engagements
+- A content/generation hub supporting UBC's production workflows
+
+These remain internal delivery tooling, in the same spirit as the [Road Lab tools](./ROAD_ECOSYSTEM.md#road-lab--internal-tools) built for the ROAD ecosystem, but scoped to UBC's own consulting practice.
+
+---
+
 # PrimerizaRD Wrapper and Public Experiences
 
 Although PrimerizaRD is documented as a larger ecosystem, some public and mobile-facing experiences also demonstrate platform and interface work:
