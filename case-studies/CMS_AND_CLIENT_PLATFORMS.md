@@ -91,33 +91,6 @@ The codebases remain private. The purpose of this summary is to show the product
 
 ---
 
-# José Road Platform
-
-## Snapshot
-
-**Type:** Personal-brand website, portfolio and professional platform  
-**Status:** Active  
-**My role:** Owner, Product Designer and Developer  
-**Live website:** https://joseroad.com/jose-road  
-**Code visibility:** Private
-
-## Scope
-
-- Professional positioning
-- Portfolio and project presentation
-- Service discovery
-- Contact and conversion pathways
-- Brand-system implementation
-- Ongoing content evolution
-
-## Technical areas demonstrated
-
-- Personal portfolio architecture
-- Content and project organisation
-- Responsive implementation
-- Conversion and contact flows
-- Brand and product integration
-
 ---
 
 # Unknown Brand Consulting — internal tooling

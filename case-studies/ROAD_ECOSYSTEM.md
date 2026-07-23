@@ -6,6 +6,7 @@
 **Type:** Owned product-and-services ecosystem (No-Code Studio, internal SaaS tooling, AI-assisted development lab)
 **My role:** Founder / Ecosystem Lead / Technical Product Developer
 **Code visibility:** Private
+**Public site:** [joseroad.com](https://joseroad.com) — ROAD's own marketing site (Ecosistema, Easy ROAD, ROAD Studio, Lab). This is the brand's public site, not a personal portfolio — this GitHub repository is the up-to-date professional profile.
 **Related documents:** [Road OS Documentation System](./ROAD_OS_DOCUMENTATION.md) · [Propertree](./PROPERTREE.md) · [Easy Road](./EASY_ROAD.md) · [Road Automation Workflows](./ROAD_AUTOMATION_WORKFLOWS.md)
 
 ## Executive summary
@@ -17,6 +18,24 @@ This case study documents that foundation. Individual products built on top of i
 ## Why an ecosystem instead of a single product
 
 Building several products and running client work in parallel (as a very small, mostly solo operation) creates a real risk of reinventing the same infrastructure — auth patterns, dashboards, analytics, briefing formats — for every new project. ROAD exists to avoid that: a shared set of internal tools, conventions and documentation practices that every product and client engagement can reuse instead of starting from zero.
+
+## How an idea becomes a product
+
+This is the pipeline ROAD's own public site describes, and it matches how the ecosystem actually operates:
+
+```text
+Idea
+  ↓
+ROAD Lab — probamos (test the concept internally)
+  ↓
+Easy ROAD — empaquetamos (package it as a resource/offer)
+  ↓
+ROAD Studio — implementamos (build it properly for real use)
+  ↓
+Producto — lanzamos (launch it)
+```
+
+Not every idea completes the pipeline — many stay at the Lab stage as internal tooling (see Road Lab below) rather than becoming a packaged or launched product.
 
 ## Structure
 

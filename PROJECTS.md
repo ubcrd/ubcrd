@@ -434,22 +434,6 @@ PrimerizaRD is not a single website. It is a connected product ecosystem that su
 
 ---
 
-## José Road Platform
-
-**Status:** Active personal-brand platform  
-**Type:** Portfolio, professional positioning and product/service presentation  
-**Role:** Owner, Product Designer and Developer  
-**Live website:** https://joseroad.com/jose-road
-
-### Product areas
-
-- Professional profile and positioning
-- Portfolio and project presentation
-- Service and contact flows
-- Content and brand-system implementation
-
----
-
 ## Unknown Brand Consulting — internal tooling
 
 **Status:** Active, internal use  

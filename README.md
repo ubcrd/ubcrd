@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-  <a href="https://joseroad.com/jose-road">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/jos%C3%A9-road-452678b4/">LinkedIn</a> ·
   <a href="https://github.com/ubcrd">GitHub</a> ·
   <a href="https://www.instagram.com/joseroad_/">Instagram</a> ·
@@ -18,6 +17,8 @@
   <a href="mailto:hola@joseroad.com">Email</a> ·
   <a href="tel:+18492060732">+1 849 206 0732</a>
 </p>
+
+<p align="center"><em>This repository is the up-to-date professional profile. <a href="https://joseroad.com">joseroad.com</a> is the public site for my ROAD brand/ecosystem, not a personal portfolio, and may not reflect the current state of this repo.</em></p>
 
 ---
 
